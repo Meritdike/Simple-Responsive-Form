@@ -7,8 +7,7 @@
 }
 
 body {
-    /* background: linear-gradient(hsl(0, 100%, 74%), hsl(0, 100%, 74%)),  url(../img/bg-intro-desktop.png); */
-    background-image: url(../img/bg-intro-desktop.png);
+    background: linear-gradient( rgba(241, 52, 52, 0.6), rgba(241, 52, 52, 0.6)),  url(../img/bg-intro-desktop.png);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,11 +25,70 @@ body {
 
 .col-1 {
     width: 45%;
-    /* color: #fff; */
+    color: #f3f7f4;
 }
 
 .col-1 h1 {
     font-size: 40px;
     line-height: 1.2;
     padding-bottom: 30px;
+}
+
+.col-2 {
+    width: 48%;
+}
+
+.trial-section {
+    background-color:  hsl(248, 32%, 49%);
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 5px hsla(248, 32%, 49%, 0.3);
+    color: #f3f7f4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 24px;
+    border: 1px solid hsla(248, 32%, 49%, 0.2);
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    outline: none;
+    border: 1px solid hsl(248, 32%, 49%);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid hsla(154, 56%, 36%, 0.5);
+    border-radius: 4px;
+    background-color: hsl(154, 59%, 51%);
+    color: #f3f7f4;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.form-section p {
+    font-size: 11px;
+    color: #b1adad;
+    text-align: center;
+}
+
+span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
 }
